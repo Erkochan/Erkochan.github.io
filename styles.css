@@ -1,0 +1,1546 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700&display=swap');
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Header */
+.wrapper_header {
+    padding: 0px 28px 0 28px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    z-index: 1000;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:0px;
+    width: calc(100vw - 80px);
+    position: fixed;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Jost", serif;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #f0f0f0;
+}
+
+.logotype {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 200px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Jost", serif;
+}
+
+button.join-us {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size:17px;
+}
+
+button.join-us:hover {
+    background-color: #218838;
+}
+h1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 438px;
+    align-items: stretch;
+    justify-content: center;
+}
+/* Banner Box */
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.banner-box {
+    display: flex;
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    align-items: stretch;
+    height: 700px;
+    width: calc(100vw - 80px);
+    margin-top: 60px;
+}
+.circle-p{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.left-section {
+    flex: 1;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ECF96E;
+    align-items: center;
+    width: 800px;
+    border-radius: 30px;
+    box-sizing: border-box;
+   
+
+}
+
+.left-section h1 {
+    font-size: 50px;
+    line-height: 1.4;
+    margin-bottom: 46px;
+    text-align: center;
+    width: 624px;
+}
+
+.left-section h1 span {
+    text-decoration: underline;
+}
+.left-section h2{
+    box-sizing: border-box;
+    padding-top: 134px;
+    padding-bottom: 18px;
+}
+
+.wrapper-main{
+    padding:0 40px 0 40px;
+    display: flex;
+    justify-content: center;
+    width: calc(100vw -80px);
+}
+.left-section form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 72px;
+}
+a{
+    text-decoration: none;
+}
+
+.left-section input[type="email"] {
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #F5FBA9;
+    height: 40px;
+    display: flex;
+    font-family: "Jost", serif;
+}
+
+form button {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.custom-button{
+    position:absolute;
+    margin:-265px -350px;
+}
+
+form button:hover {
+    background-color: #E4E4E4;
+}
+#person1{
+    margin-left: -20px;
+}
+.button-container{
+    position: absolute;
+    z-index: 1;
+}
+
+.circle {
+    display: flex;
+    gap: 10px;
+}
+.circle-p{
+    gap: 20px;}
+.circle img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #28a745;
+}
+
+.volunteers-info {
+    font-size: 14px;
+    color: #555;
+}
+
+.right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.placeholder-box {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+    width: 623px;
+    align-items: center;
+    display: flex;
+}
+.photo2{
+    width:600px;
+    height:auto;
+    border-radius: 5%;
+    padding-left: 20px;
+}
+
+#content {
+    width: 100%;
+    margin-top: 100px;
+    color: rgba(0, 0, 0, 0.822);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+#content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #000000;
+    font-family: "Jost", serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+#content p {
+    font-size: 24px;
+    max-width: 800px;
+    margin: 10px 0;
+    line-height: 1.6;
+    color: #000000;
+    font-family: "Jost", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.scroll-space {
+    height: 100vh; 
+}
+
+#button1 {
+    font-size:17px;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    justify-content: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #e1e1e1;
+    background: transparent;
+    color: #000000;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#button1:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+}
+
+.button-two {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#button2 {
+    font-size:17px;
+    width: 120px;
+    padding: 15px 0;
+    text-align: center;
+    justify-content: center;
+    margin: 20px 10px;
+    border-radius: 24px;
+    font-weight: bold;
+    border: 2px solid #d5e163;
+    background: transparent;
+    color: #000000;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#button2:hover {
+    background-color: #e1ecb4;
+    transform: scale(1.05);
+}
+    
+.green-world{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+
+}
+.loop-slide {
+    overflow: hidden;
+    position: absolute;
+    width:96%; /* Ensure it takes the full width */
+    margin: 1350px 0px;
+
+}
+
+.loop-slide > div {
+    display: flex;
+    animation: slide-to-left 5s linear infinite; /* Adjust the duration as needed */
+}
+
+.loop-slide > div > * {
+    min-width: calc(100% / 4); /* Adjust the width to fit the container */
+}
+
+@keyframes slide-to-left {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
+.bottles{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: calc(100vw - 80px);
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 200px;
+    margin-top: 200px;
+}
+.bottle-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bottle-heading{
+    display: flex;
+    flex-wrap: wrap;
+    width: 833px;
+    justify-content: center;
+}
+.bottle-heading h2{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 48px;
+    font-style: normal;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+
+    
+    
+}
+.bottle-heading h3{
+    display: flex;
+    text-align: center;
+    margin-bottom: 30px;
+    
+    font-size: 26px;
+    font-style: normal;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+.bottle-heading h4{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-style: normal;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+
+.list-3{
+    display: flex;
+    opacity:60%;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 750px;
+    font-size: 24px;
+    font-style: normal;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+}
+.bottle-img{
+    display: flex;
+    justify-content: center;
+}
+.container {
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-family: "Jost", serif;
+}
+  
+.card {
+    background-color: #fff;
+    border: 2px solid #4caf50;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+  
+.card:hover {
+    transform: scale(1.05);
+}
+  
+.card img {
+    max-width: 80px;
+    margin-bottom: 15px;
+}
+  
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #4caf50;
+}
+  
+.card p {
+    font-size: 14px;
+    color: #666;
+}
+.bomboclat {
+    font-family: "Jost", serif;
+    margin: 0px 30px;
+    padding: 0px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contact-section {
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+}
+
+.contact-section h1 {
+    font-size: 24px;
+    color: #ccc;
+    justify-content: flex-end;
+}
+
+.contact-section p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.bomboclat input, select, textarea, button[type="submity"]  {
+    font-family: "Jost", serif;
+    font-size: 14px;
+    width:100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    grid-column: span 2;
+    resize: none;
+}
+
+button[type="submity"]  {
+    justify-content: center;
+    grid-column: span 0.5;
+    background-color: #CFE291;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 25px;
+    width:200px;
+    margin-top: 50px;
+}
+
+button[type="submity"] :hover {
+    background-color: #000000;
+    justify-content: center;
+    background-color: #CFE291;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 25px;
+    width:200px;
+    margin-top: 50px;
+}
+@media (max-width: 600px) {
+    form {
+        grid-template-columns: 1fr;
+    }
+
+    textarea {
+        grid-column: span 1;
+    }
+
+    button[type="submity"]  {
+        grid-column: span 1;
+    }
+}
+footer {
+    background-image: url(../img/Rectangle3.svg);
+    color: #000;
+    padding: 40px 20px 20px 40px;
+    font-size: 20px;
+    font-family: "Jost", serif;
+    margin: 0px 30px;
+    background-color: white;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 150px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 150px;
+    margin: 10px;
+  }
+  
+  .footer-section h6,.footer-section h7 {
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+  }
+  
+  .social-icons img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+@keyframes slideLoop {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+header {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.left-section {
+    animation: slideInLeft 1.5s ease-in-out;
+}
+
+.right-section {
+    animation: slideInRight 1.5s ease-in-out;
+}
+
+.green-world .section {
+    animation: fadeIn 2s ease-in-out;
+}
+
+.card {
+    animation: fadeIn 2s ease-in-out;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.loop-slide div {
+    display: flex;
+    animation: slideLoop 10s linear infinite;
+    z-index:1;
+}
+
+.contact-section {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+footer {
+    animation: fadeIn 2s ease-in-out;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+.social-icons a:hover {
+    transform: scale(1.2); 
+}
+
+html {
+    scroll-behavior: smooth;
+    .button-container {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .custom-button {
+        background-color: #ffffff;
+        border: 2px solid #4CAF50;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+    
+    .custom-button:hover {
+        background-color: #4CAF50;
+        transform: scale(1.1);
+    }
+    
+    .arrow-icon {
+        font-size: 20px;
+        color: #4CAF50;
+        transition: color 0.3s;
+    }
+    
+    .custom-button:hover .arrow-icon {
+        color: #ffffff;
+    }
+button {
+    background-color: #4CAF50; 
+    color: white; 
+    border: none;
+    padding: 10px 20px;
+    font-size:14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    font-family: "Jost", serif;
+}
+
+button:hover {
+    background-color: #45a049; 
+    color: #f1f1f1; 
+}
+
+button a {
+    color: inherit; 
+    text-decoration: none; 
+}
+.section p {
+    opacity:50%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700&display=swap');
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Header */
+.wrapper_header {
+    padding: 0px 28px 0 28px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    z-index: 1000;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:0px;
+    width: calc(100vw - 80px);
+    position: fixed;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Jost", serif;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #f0f0f0;
+}
+
+.logotype {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 200px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Jost", serif;
+}
+
+button.join-us {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size:17px;
+}
+
+button.join-us:hover {
+    background-color: #218838;
+}
+h1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 438px;
+    align-items: stretch;
+    justify-content: center;
+}
+/* Banner Box */
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.banner-box {
+    display: flex;
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    align-items: stretch;
+    height: 700px;
+    width: calc(100vw - 80px);
+    margin-top: 60px;
+}
+.circle-p{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.left-section {
+    flex: 1;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ECF96E;
+    align-items: center;
+    width: 800px;
+    border-radius: 30px;
+    box-sizing: border-box;
+   
+
+}
+
+.left-section h1 {
+    font-size: 50px;
+    line-height: 1.4;
+    margin-bottom: 46px;
+    text-align: center;
+    width: 624px;
+}
+
+.left-section h1 span {
+    text-decoration: underline;
+}
+.left-section h2{
+    box-sizing: border-box;
+    padding-top: 134px;
+    padding-bottom: 18px;
+}
+
+.wrapper-main{
+    padding:0 40px 0 40px;
+    display: flex;
+    justify-content: center;
+    width: calc(100vw -80px);
+}
+.left-section form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 72px;
+}
+a{
+    text-decoration: none;
+}
+
+.left-section input[type="email"] {
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #F5FBA9;
+    height: 40px;
+    display: flex;
+    font-family: "Jost", serif;
+}
+
+form button {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.custom-button{
+    position:absolute;
+    margin:-265px -350px;
+}
+
+form button:hover {
+    background-color: #E4E4E4;
+}
+#person1{
+    margin-left: -20px;
+}
+.button-container{
+    position: absolute;
+    z-index: 1;
+}
+
+.circle {
+    display: flex;
+    gap: 10px;
+}
+.circle-p{
+    gap: 20px;}
+.circle img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #28a745;
+}
+
+.volunteers-info {
+    font-size: 14px;
+    color: #555;
+}
+
+.right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.placeholder-box {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+    width: 623px;
+    align-items: center;
+    display: flex;
+}
+.photo2{
+    width:600px;
+    height:auto;
+    border-radius: 5%;
+    padding-left: 20px;
+}
+
+#content {
+    width: 100%;
+    margin-top: 100px;
+    color: rgba(0, 0, 0, 0.822);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+#content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #000000;
+    font-family: "Jost", serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+#content p {
+    font-size: 24px;
+    max-width: 800px;
+    margin: 10px 0;
+    line-height: 1.6;
+    color: #000000;
+    font-family: "Jost", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.scroll-space {
+    height: 100vh; 
+}
+
+#button1 {
+    font-size:17px;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    justify-content: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #e1e1e1;
+    background: transparent;
+    color: #000000;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#button1:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+}
+
+.button-two {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#button2 {
+    font-size:17px;
+    width: 120px;
+    padding: 15px 0;
+    text-align: center;
+    justify-content: center;
+    margin: 20px 10px;
+    border-radius: 24px;
+    font-weight: bold;
+    border: 2px solid #d5e163;
+    background: transparent;
+    color: #000000;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#button2:hover {
+    background-color: #e1ecb4;
+    transform: scale(1.05);
+}
+    
+.green-world{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+
+}
+.loop-slide {
+    overflow: hidden;
+    position: absolute;
+    width:96%; /* Ensure it takes the full width */
+    margin: 1350px 0px;
+
+}
+
+.loop-slide > div {
+    display: flex;
+    animation: slide-to-left 5s linear infinite; /* Adjust the duration as needed */
+}
+
+.loop-slide > div > * {
+    min-width: calc(100% / 4); /* Adjust the width to fit the container */
+}
+
+@keyframes slide-to-left {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
+.bottles{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: calc(100vw - 80px);
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 200px;
+    margin-top: 200px;
+}
+.bottle-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bottle-heading{
+    display: flex;
+    flex-wrap: wrap;
+    width: 833px;
+    justify-content: center;
+}
+.bottle-heading h2{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 48px;
+    font-style: normal;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+
+    
+    
+}
+.bottle-heading h3{
+    display: flex;
+    text-align: center;
+    margin-bottom: 30px;
+    
+    font-size: 26px;
+    font-style: normal;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+.bottle-heading h4{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-style: normal;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+
+.list-3{
+    display: flex;
+    opacity:60%;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 750px;
+    font-size: 24px;
+    font-style: normal;
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+}
+.bottle-img{
+    display: flex;
+    justify-content: center;
+}
+.container {
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-family: "Jost", serif;
+}
+  
+.card {
+    background-color: #fff;
+    border: 2px solid #4caf50;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+  
+.card:hover {
+    transform: scale(1.05);
+}
+  
+.card img {
+    max-width: 80px;
+    margin-bottom: 15px;
+}
+  
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #4caf50;
+}
+  
+.card p {
+    font-size: 14px;
+    color: #666;
+}
+.bomboclat {
+    font-family: "Jost", serif;
+    margin: 0px 30px;
+    padding: 0px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contact-section {
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+}
+
+.contact-section h1 {
+    font-size: 24px;
+    color: #ccc;
+    justify-content: flex-end;
+}
+
+.contact-section p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.bomboclat input, select, textarea, button[type="submity"]  {
+    font-family: "Jost", serif;
+    font-size: 14px;
+    width:100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    grid-column: span 2;
+    resize: none;
+}
+
+button[type="submity"]  {
+    justify-content: center;
+    grid-column: span 0.5;
+    background-color: #CFE291;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 25px;
+    width:200px;
+    margin-top: 50px;
+}
+
+button[type="submity"] :hover {
+    background-color: #000000;
+    justify-content: center;
+    background-color: #CFE291;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 25px;
+    width:200px;
+    margin-top: 50px;
+}
+@media (max-width: 600px) {
+    form {
+        grid-template-columns: 1fr;
+    }
+
+    textarea {
+        grid-column: span 1;
+    }
+
+    button[type="submity"]  {
+        grid-column: span 1;
+    }
+}
+footer {
+    background-image: url(../img/Rectangle3.svg);
+    color: #000;
+    padding: 40px 20px 20px 40px;
+    font-size: 20px;
+    font-family: "Jost", serif;
+    margin: 0px 30px;
+    background-color: white;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 150px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 150px;
+    margin: 10px;
+  }
+  
+  .footer-section h6,.footer-section h7 {
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+  }
+  
+  .social-icons img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+@keyframes slideLoop {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+header {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.left-section {
+    animation: slideInLeft 1.5s ease-in-out;
+}
+
+.right-section {
+    animation: slideInRight 1.5s ease-in-out;
+}
+
+.green-world .section {
+    animation: fadeIn 2s ease-in-out;
+}
+
+.card {
+    animation: fadeIn 2s ease-in-out;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.loop-slide div {
+    display: flex;
+    animation: slideLoop 10s linear infinite;
+    z-index:1;
+}
+
+.contact-section {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+footer {
+    animation: fadeIn 2s ease-in-out;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+.social-icons a:hover {
+    transform: scale(1.2); 
+}
+
+html {
+    scroll-behavior: smooth;
+    .button-container {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .custom-button {
+        background-color: #ffffff;
+        border: 2px solid #4CAF50;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+    
+    .custom-button:hover {
+        background-color: #4CAF50;
+        transform: scale(1.1);
+    }
+    
+    .arrow-icon {
+        font-size: 20px;
+        color: #4CAF50;
+        transition: color 0.3s;
+    }
+    
+    .custom-button:hover .arrow-icon {
+        color: #ffffff;
+    }
+button {
+    background-color: #4CAF50; 
+    color: white; 
+    border: none;
+    padding: 10px 20px;
+    font-size:14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    font-family: "Jost", serif;
+}
+
+button:hover {
+    background-color: #45a049; 
+    color: #f1f1f1; 
+}
+
+button a {
+    color: inherit; 
+    text-decoration: none; 
+}
+.section p {
+    opacity:50%;
+}}
+}
